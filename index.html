@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<head>
+<title>HTML-Structure</title>
+</head>
+
+<!-- Body Start -->
+
+<body>
+
+<!-- The center tag was used in HTML4 to center-align text. -->
+
+<center><h1 id="top">Wellcome To Learn HTML Basics</h1></center>
+
+<!-- all pages links  -->
+
+<ol>
+<li><a href="#chapOne">Structure</a></li>
+<li><a href="#chapTwo">Text</a></li>
+<li><a href="#chapThree">Lists</a></li>
+<li><a href="#chapFour">Links</a></li>
+<li><a href="#chapFive">Images</a></li>
+<li><a href="#chapSix">Tables</a></li>
+<li><a href="#chapSeven">Form</a></li>
+<li><a href="#chapEight">Extra Markup</a></li>
+<li><a href="#chapNine">Media</a></li>
+</ol>
+
+<!-- all pages links closed  -->
+
+<br />
+
+
+<!-- chapter 1 code -->
+
+
+<h3 id="chapOne">Chapter 1: Structure</h3> <hr />
+
+<p>The structure of an HTML document includes the use of elements such as , and . These elements help to define the layout and content of a web page</p>
+
+<br />
+<br />
+<br />
+
+
+<!-- chapter 2 code -->
+
+
+<h3 id="chapTwo">Chapter 2: Text</h3> <hr />
+
+<h3>Headings</h3>
+<br />
+<p>HTML offers six levels of headings, from Each heading level represents a different level of importance.<p>
+<br />
+<h2>Heading 1</h2>
+<h2>Heading 2</h2>
+<hr />
+<h3>Heading 03</h3>
+<h4>Heading 04</h4>
+<h5>Heading 05</h5>
+<h6>Heading 06</h6>
+<br />
+<h2>Paragraphs</h2>
+<p>Paragraphs are defined with the p tag.<br />
+
+This is a sample paragraph demonstrating the paragraph tag.</p> <br /> <br />
+
+
+<!-- chapter 3 code -->
+
+
+<h3 id="chapThree">Chapter 3: Lists</h3> <hr />
+
+
+<h2>Ordered List</h2>
+
+
+<ol>
+<li>First Item
+<ol>
+<li>Sub Item 1</li>
+<li>Sub Item 2</li>
+</ol>
+</li>
+<li>Second Item
+<ol>
+<li>Sub Item 1</li>
+<li>Sub Item 2
+<ol>
+<li>Sub Item 1</li>
+<li>Sub Item 2</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Third Item</li>
+</ol>
+
+<br />
+
+
+<h2>Unordered List</h2>
+
+
+<ul>
+
+<li>First Item <ul>
+<li>Sub item 1</li>
+<li>Sub item 2</li></ul></li>
+
+<li>Second Item <ul>
+<li>Sub item 1</li>
+<li>Sub item 2 <ul>
+<li>Sub item 1</li>
+<li>Sub item 2</li></ul>
+</li></ul></li>
+
+<li>Third Item</li>
+
+</ul>
+
+
+<h2>Definition List</h2>
+
+<dl>
+
+<dt>HTML<dt>
+<dd>A markup language for creating web pages.</dd>
+
+<dt>CSS<dt>
+<dd>A style sheet language used for describing the presentation of a document written in HTML.</dd>
+
+<dt>Javascript<dt>
+<dd>A programming language commonly used in web development to create interactive effects within web browsers.</dd>
+
+</dl> <br /> <br />
+
+
+<!-- chapter 4 code -->
+
+
+<h3 id="chapFour">Chapter 4: Links</h3> <hr />
+<br />
+
+<p>Links are created using the a tag.</p>
+
+<a href="https://www.example.com/">Visit Example</a> <br /> <br />
+
+
+<!-- chapter 5 code -->
+
+
+<h3 id="chapFive">Chapter 5: Images</h3> <hr />
+
+<p>Images are embedded using the img tag.</p>
+
+<img src="./images/download.jpeg" alt="developer-img" width="200" height="200" /> <br /> <br />
+
+
+<!-- chapter 6 code -->
+
+
+<h3 id="chapSix">Chapter 6: Tables</h3> <hr />
+
+<br />
+
+<table border="1" width="1000" height="100">
+
+<tr>
+<th scope="column">Header 1</th>
+<th scope="column">Header 2</th>
+</tr>
+<tr>
+<td>Data 1</td>
+<td>Data 2</td>
+</tr>
+
+</table>
+
+<br /> <br />
+
+
+<!-- chapter 7 code -->
+
+
+<h3 id="chapSeven">Chapter 7: Form</h3> <hr /> <br />
+
+<form action="https://www.example.com/">
+
+<label>Name<br />
+<input type="text" name="username" size="100" required placholder="Username" /></label>
+<br />
+<label>Email<br />
+<input type="email" name="username"  size="100" required placholder="Email"  /></label>
+<br /> <br />
+<input type="submit" value="Submit"/> 
+
+</form> <br /> <br />
+
+
+<!-- chapter 8 code -->
+
+
+<h3 id="chapEight">Chapter 8: Extra Markup</h3> <hr />
+
+<p>Additional elements include div , span and more.</p>
+
+<span><div>This is Span inside div </div></span>
+
+<br /> <br />
+
+
+<!-- chapter 9 code -->
+
+
+<h3 id="chapNine">Chapter 9: Media</h3> <hr />
+
+<h4>Video</h4>
+
+<video controls width="300" height="200">
+<source src="./video/nature.mp4"></source>
+</video>
+
+<br /> <br />
+
+<h4>Audio</h4>
+
+<audio controls>
+<source src="./audios/turkish.mp3"></source>
+</audio>
+
+<h1><a href="#top">Go Top</a></h1>
+
+</body>
+
+<!-- Body Closed -->
+
+</html>
