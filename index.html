@@ -1,20 +1,32 @@
 <!DOCTYPE html>
+<html>
+
+<!-- Head Start -->
+
 <head>
 <title>complete_HTML_assignment</title>
+<link rel="stylesheet" href="./styles/index.css" />
 </head>
+
+<!-- Head Closed -->
+
 
 <!-- Body Start -->
 
 <body>
 
-<!-- The center tag was used in HTML4 to center-align text. -->
 
-<center><h1 id="top">Wellcome To Learn HTML Basics</h1></center>
 
-<!-- all pages links  -->
+<!-- Header & Nav-bar Start -->
+
+<header>
+
+<h1 id="top">Wellcome To Learn HTML Basics</h1>
+
+<nav>
 
 <ol>
-<li><a href="#chapOne">Structure</a></li>
+<li><a href="#chapOne" id="a">Structure</a></li>
 <li><a href="#chapTwo">Text</a></li>
 <li><a href="#chapThree">Lists</a></li>
 <li><a href="#chapFour">Links</a></li>
@@ -25,25 +37,30 @@
 <li><a href="#chapNine">Media</a></li>
 </ol>
 
-<!-- all pages links closed  -->
+</nav>
 
-<br />
+</header>
+
+<!-- Header & Nav-bar Closed -->
 
 
 <!-- chapter 1 code -->
+
+<section>
 
 
 <h3 id="chapOne">Chapter 1: Structure</h3> <hr />
 
 <p>The structure of an HTML document includes the use of elements such as , and . These elements help to define the layout and content of a web page</p>
 
-<br />
-<br />
-<br />
+<br /> <br /> <br />
+
+</section>
 
 
 <!-- chapter 2 code -->
 
+<section>
 
 <h3 id="chapTwo">Chapter 2: Text</h3> <hr />
 
@@ -64,9 +81,13 @@
 
 This is a sample paragraph demonstrating the paragraph tag.</p> <br /> <br />
 
+</section>
+
 
 <!-- chapter 3 code -->
 
+
+<section>
 
 <h3 id="chapThree">Chapter 3: Lists</h3> <hr />
 
@@ -134,9 +155,13 @@ This is a sample paragraph demonstrating the paragraph tag.</p> <br /> <br />
 
 </dl> <br /> <br />
 
+</section>
+
 
 <!-- chapter 4 code -->
 
+
+<section>
 
 <h3 id="chapFour">Chapter 4: Links</h3> <hr />
 <br />
@@ -145,9 +170,12 @@ This is a sample paragraph demonstrating the paragraph tag.</p> <br /> <br />
 
 <a href="https://www.example.com/">Visit Example</a> <br /> <br />
 
+</section>
+
 
 <!-- chapter 5 code -->
 
+<section>
 
 <h3 id="chapFive">Chapter 5: Images</h3> <hr />
 
@@ -155,36 +183,47 @@ This is a sample paragraph demonstrating the paragraph tag.</p> <br /> <br />
 
 <img src="./images/download.jpeg" alt="developer-img" width="200" height="200" /> <br /> <br />
 
+</section>
+
 
 <!-- chapter 6 code -->
 
+<section>
 
 <h3 id="chapSix">Chapter 6: Tables</h3> <hr />
 
 <br />
 
-<table border="1" width="1000" height="100">
+<table cellspacing="0">
+
+<tbody>
 
 <tr>
 <th scope="column">Header 1</th>
 <th scope="column">Header 2</th>
 </tr>
+
 <tr>
 <td>Data 1</td>
 <td>Data 2</td>
 </tr>
 
+<tbody>
+
 </table>
 
 <br /> <br />
 
+</section>
+
 
 <!-- chapter 7 code -->
 
+<section>
 
 <h3 id="chapSeven">Chapter 7: Form</h3> <hr /> <br />
 
-<form action="https://www.example.com/">
+<form action="https://www.example.com/" method="post">
 
 <label>Name<br />
 <input type="text" name="username" size="100" required placholder="Username" /></label>
@@ -194,23 +233,30 @@ This is a sample paragraph demonstrating the paragraph tag.</p> <br /> <br />
 <br /> <br />
 <input type="submit" value="Submit"/> 
 
-</form> <br /> <br />
+</form>
 
+<br /> <br />
+
+</section>
 
 <!-- chapter 8 code -->
 
+<section>
 
 <h3 id="chapEight">Chapter 8: Extra Markup</h3> <hr />
 
 <p>Additional elements include div , span and more.</p>
-
-<span><div>This is Span inside div </div></span>
+<br />
+<span><div>This is Span inside div</div></span>
 
 <br /> <br />
+
+</section>
 
 
 <!-- chapter 9 code -->
 
+<section>
 
 <h3 id="chapNine">Chapter 9: Media</h3> <hr />
 
@@ -230,8 +276,23 @@ This is a sample paragraph demonstrating the paragraph tag.</p> <br /> <br />
 
 <h1><a href="#top">Go Top</a></h1>
 
+</section>
+
+
+<!-- Footer Start -->
+
+<footer>
+
+<p>© 2024 powered by CodeNetic</p>
+
+</footer>
+
+<!-- Footer Closed -->
+
+
 </body>
 
 <!-- Body Closed -->
+
 
 </html>

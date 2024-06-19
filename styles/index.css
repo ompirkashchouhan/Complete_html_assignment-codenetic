@@ -1,0 +1,115 @@
+/* CSS Start */
+
+
+
+*{
+margin: 0;
+padding: 0;
+font-family: Arial , sans-serif;
+}
+
+header {
+background-color: #333333;
+color: white;
+list-style: none;
+text-align: center;
+padding: 30px 0;
+}
+
+header > h1 {
+margin-top: 10px;
+margin-bottom: 15px;
+}
+
+hr {
+margin-top: 13px;
+margin-bottom: 13px;
+}
+
+h3 {
+font-size: 24px;
+font-weight: 700;
+}
+
+nav > ol {
+list-style: none;
+padding: 0;
+}
+
+nav > ol > li {
+display: inline;
+margin: 0 13px;
+transition: 0.4s ease;
+}
+
+nav > ol > li:hover{
+background-color: white;
+border: 1px solid white;
+padding: 8px;
+border-radius: 5px;
+}
+
+nav > ol > li > a:hover{
+color: black;
+}
+
+nav > ol > li > a{
+text-decoration: none;
+color: white;
+}
+
+body {
+line-height: 1.6;
+}
+
+section {
+padding: 50px;
+}
+
+table {
+border: 1px solid black;
+text-align: left;
+width: 100%;
+}
+
+table th,td {
+padding: 8px;
+border: 1px solid black;
+}
+
+form {
+background-color: #f9f9f9;
+padding: 20px;
+border: 1px solid gray;
+}
+
+form > input {
+width: 99%;
+padding: 10px;
+border: none;
+outline: none;
+background-color: #333333;
+color: white;
+}
+
+form > label > input {
+border: 1px solid gray;
+width: 97%;
+margin-bottom: 15px;
+padding: 10px;
+}
+
+span > div {
+background-color: lightgrey;
+padding: 15px;
+}
+
+footer {
+background-color: #333333;
+color: white;
+text-align: center;
+padding: 30px 0;
+}
+
+
+/* CSS Closed */
